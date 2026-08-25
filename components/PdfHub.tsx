@@ -24,7 +24,7 @@ const books: Book[] = [
     title: 'Thinking, Fast and Slow',
     author: 'Daniel Kahneman',
     description: 'Exploration of the two systems that drive the way we think, judge, and make choices.',
-    filename: 'thinking-fast-and-slow-by-Daniel-Kahneman.pdf',
+    filename: 'thinking-fast-and-slow-by-daniel-kahneman.pdf',
     category: 'Psychology',
   },
   {
@@ -32,7 +32,7 @@ const books: Book[] = [
     title: 'The 7 Habits of Highly Effective People',
     author: 'Stephen Covey',
     description: 'Powerful lessons in personal change, character ethics, and principled effectiveness.',
-    filename: 'covey-stephen-the-seven-habits-of-highly-effective-people-by-Stephen-Covey.pdf',
+    filename: 'covey-stephen-the-seven-habits-of-highly-effective-people-by-stephen-covey.pdf',
     category: 'Leadership',
   },
   {
@@ -40,7 +40,7 @@ const books: Book[] = [
     title: 'How to Win Friends and Influence People',
     author: 'Dale Carnegie',
     description: 'Classic guide on interpersonal communication, persuasion, and building lasting relationships.',
-    filename: 'How-to-win-friends-and-influence-people-by-Dale-carnegie.pdf',
+    filename: 'how-to-win-friends-and-influence-people-by-dale-carnegie.pdf',
     category: 'Communication',
   },
   {
@@ -48,9 +48,9 @@ const books: Book[] = [
     title: 'Atomic Habits',
     author: 'James Clear',
     description: 'An easy and proven way to build good habits, break bad ones, and get 1% better every day.',
-    filename: 'Atomic-Habits-by-James-Clear.pdf',
+    filename: 'atomic-habits-by-james-clear.pdf',
     category: 'Productivity',
-  },
+  }
 ];
 
 export default function PdfHub() {
