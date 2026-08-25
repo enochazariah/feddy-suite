@@ -16,7 +16,7 @@ const books: Book[] = [
     title: 'Think and Grow Rich',
     author: 'Napoleon Hill',
     description: 'Timeless principles of wealth creation, personal achievement, and mindset mastery.',
-    filename: 'book1.pdf',
+    filename: 'pdfs/book1.pdf',
     category: 'Wealth & Mindset',
   },
   {
@@ -24,7 +24,7 @@ const books: Book[] = [
     title: 'Thinking, Fast and Slow',
     author: 'Daniel Kahneman',
     description: 'Exploration of the two systems that drive the way we think, judge, and make choices.',
-    filename: 'book2.pdf',
+    filename: 'pdfs/book2.pdf',
     category: 'Psychology',
   },
   {
@@ -32,7 +32,7 @@ const books: Book[] = [
     title: 'The 7 Habits of Highly Effective People',
     author: 'Stephen Covey',
     description: 'Powerful lessons in personal change, character ethics, and principled effectiveness.',
-    filename: 'book3.pdf',
+    filename: 'pdfs/book3.pdf',
     category: 'Leadership',
   },
   {
@@ -40,7 +40,7 @@ const books: Book[] = [
     title: 'The Magic of Thinking Big',
     author: 'David J. Schwartz',
     description: 'Practical methods for setting your goals high and exceeding them to achieve success.',
-    filename: 'book4.pdf',
+    filename: 'pdfs/book4.pdf',
     category: 'Mindset',
   },
   {
@@ -48,7 +48,7 @@ const books: Book[] = [
     title: 'Atomic Habits',
     author: 'James Clear',
     description: 'An easy and proven way to build good habits, break bad ones, and get 1% better every day.',
-    filename: 'book5.pdf',
+    filename: 'pdfs/book5.pdf',
     category: 'Productivity',
   }
 ];
@@ -163,4 +163,4 @@ export default function PdfHub() {
       )}
     </div>
   );
-} 
+}
