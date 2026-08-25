@@ -16,7 +16,7 @@ const books: Book[] = [
     title: 'Think and Grow Rich',
     author: 'Napoleon Hill',
     description: 'Timeless principles of wealth creation, personal achievement, and mindset mastery.',
-    filename: 'think-and-grow-rich-by-napolean-hill.pdf',
+    filename: 'book1.pdf',
     category: 'Wealth & Mindset',
   },
   {
@@ -24,7 +24,7 @@ const books: Book[] = [
     title: 'Thinking, Fast and Slow',
     author: 'Daniel Kahneman',
     description: 'Exploration of the two systems that drive the way we think, judge, and make choices.',
-    filename: 'thinking-fast-and-slow-by-daniel-kahneman.pdf',
+    filename: 'book2.pdf',
     category: 'Psychology',
   },
   {
@@ -32,23 +32,23 @@ const books: Book[] = [
     title: 'The 7 Habits of Highly Effective People',
     author: 'Stephen Covey',
     description: 'Powerful lessons in personal change, character ethics, and principled effectiveness.',
-    filename: 'covey-stephen-the-seven-habits-of-highly-effective-people-by-stephen-covey.pdf',
+    filename: 'book3.pdf',
     category: 'Leadership',
   },
   {
     id: '4',
-    title: 'How to Win Friends and Influence People',
-    author: 'Dale Carnegie',
-    description: 'Classic guide on interpersonal communication, persuasion, and building lasting relationships.',
-    filename: 'how-to-win-friends-and-influence-people-by-dale-carnegie.pdf',
-    category: 'Communication',
+    title: 'The Magic of Thinking Big',
+    author: 'David J. Schwartz',
+    description: 'Practical methods for setting your goals high and exceeding them to achieve success.',
+    filename: 'book4.pdf',
+    category: 'Mindset',
   },
   {
     id: '5',
     title: 'Atomic Habits',
     author: 'James Clear',
     description: 'An easy and proven way to build good habits, break bad ones, and get 1% better every day.',
-    filename: 'atomic-habits-by-james-clear.pdf',
+    filename: 'book5.pdf',
     category: 'Productivity',
   }
 ];
@@ -136,7 +136,6 @@ export default function PdfHub() {
             </div>
 
             <div className="flex items-center gap-3 pt-4 border-t border-slate-800/80">
-              {/* Read Online Button - Standard HTML link to local file */}
               <a
                 href={`/${book.filename}`}
                 target="_blank"
@@ -145,8 +144,6 @@ export default function PdfHub() {
               >
                 <BookOpen size={16} /> Read Online
               </a>
-              
-              {/* Download Button - Triggers Prototype Alert */}
               <button
                 onClick={handlePrototypeAlert}
                 className="bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white p-2.5 rounded-xl transition-all border border-slate-700/50"
