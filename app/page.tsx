@@ -32,6 +32,20 @@ export default function Home() {
           {activeTab === 'reminders' && 'Automated Milestone & Email Dispatch Hub'}
           {activeTab === 'library' && 'High-Performance Local PDF Knowledge Base'}
         </p>
+
+        {/* Direct APK Download Button */}
+        <div className="mt-8 flex justify-center">
+          <a 
+            href="/feddy-suite.apk" 
+            download="FeddySuite.apk"
+            className="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-6 rounded-xl transition-all shadow-lg hover:shadow-indigo-500/25 text-sm"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Download Android App
+          </a>
+        </div>
       </header>
 
       {/* Main Viewport Container */}
@@ -83,4 +97,4 @@ export default function Home() {
 
     </main>
   );
-} 
+}
